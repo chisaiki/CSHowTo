@@ -14,4 +14,4 @@
 7. Open project in the browser. Vite will display a link, such as http://127.0.0.1:5173 to click on or copy/paste that will take you to the localhost port where the project is running.
 
 NOTE: To stop the server, ctrl + c / cmd + c within the Terminal, or use the trash can icon in the top right of the Terminal within VS Code. 
-- To run the server again, simply use npm run dev again.
+- To run the server again, simply use: $npm run dev
