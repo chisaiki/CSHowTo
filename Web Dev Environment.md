@@ -18,3 +18,21 @@ NOTE: To stop the server, ctrl + c / cmd + c within the Terminal, or use the tra
 
 ## Getting Node through WSL
 Instructions can be found through an official [Microsoft Guide](https://learn.microsoft.com/en-us/windows/dev-environment/javascript/nodejs-on-wsl)
+
+# Setting Up An Empty Project
+You may notice once you run ``` $npm create vite@latest ```, a lot of the files contain pre-written code. If we want a blank state to start out an application: 
+1. Go to the root file ``` App.jsx ``` in the src directory.
+   - Enter the following code
+     ```
+     import './App.css';
+
+     const App = () => {
+     return (
+          <div className="App">
+          </div>
+        )
+      }
+      export default App
+     ```
+
+     Note: className is optional but it does make it easier to add CSS this way
