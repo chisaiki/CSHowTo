@@ -15,3 +15,6 @@
 
 NOTE: To stop the server, ctrl + c / cmd + c within the Terminal, or use the trash can icon in the top right of the Terminal within VS Code. 
 - To run the server again, simply use: ``` $npm run dev ```
+
+## Getting Node through WSL
+Instructions can be found through an official [Microsoft Guide](https://learn.microsoft.com/en-us/windows/dev-environment/javascript/nodejs-on-wsl)
