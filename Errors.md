@@ -14,4 +14,4 @@ In WSL, Windows paths like week10.py are not recognized. WSL uses Linux-style pa
 
 Must run: ```python3 /mnt/d/Test/Python/Practice/week10.py```
 
-**TLDR**: WSL cannot recognize python interpreter confuguration filepath (Since its for Windows), so you must set the interpreter default path to the one in WSL.
+**TLDR**: WSL cannot recognize python interpreter configuration filepath (Since its for Windows), so you must set the interpreter default path to the one in WSL.
