@@ -13,3 +13,5 @@ When you press the "Run" button, VS Code tries to use the default Python interpr
 In WSL, Windows paths like week10.py are not recognized. WSL uses Linux-style paths, so you must use ```/mnt/d/Test/Python/Practice/week10.py.```
 
 Must run: ```python3 /mnt/d/Test/Python/Practice/week10.py```
+
+**TLDR**: WSL cannot recognize python interpreter confuguration filepath (Since its for Windows), so you must set the interpreter default path to the one in WSL.
