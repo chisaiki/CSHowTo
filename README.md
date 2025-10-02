@@ -22,16 +22,7 @@ CSHowTo is an educational repository designed to help developers and computer sc
 CSHowTo/
 ├── README.md
 ├── ProgramExamples/
-│   ├── CS_Q's.md              # Common CS programming questions and answers
-│   └── Stack/
-│       ├── LinkedListBased/   # Stack implementation using linked lists
-│       │   ├── main.cpp
-│       │   ├── stack.h
-│       │   └── Errors.md
-│       └── VectorBased/       # Stack implementation using vectors
-│           ├── main.cpp
-│           ├── stack.cpp
-│           └── stack.h
+│
 └── Tutorials/
     ├── CloudSecurity.md       # Cloud security fundamentals
     ├── Docker.md              # Docker containerization guide
