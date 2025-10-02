@@ -23,10 +23,14 @@ int main(){
     /*Check to see the top element*/
     std::cout << "[" << stack1.top() << "]";
     std::cout << stack2.top();
+    std::cout << std::endl;
 
 
-    std::cout << std::endl << stack1.isEmpty() << std::endl;
-    std::cout << stack2.isEmpty() << std::endl;
+    (stack1.isEmpty()) ? std::cout << "Empty\n" :  std::cout << "Not Empty\n";
+    (stack2.isEmpty()) ? std::cout << "Empty\n" :  std::cout << "Not Empty\n";
+    (stack1.search(2)) ? std::cout << "Found\n" :  std::cout << "Not Found\n"; 
+    (stack2.search(4)) ? std::cout << "Found\n" :  std::cout << "Not Found\n"; 
+
 
 
 

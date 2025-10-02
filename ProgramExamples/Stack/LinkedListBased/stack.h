@@ -99,7 +99,7 @@ class Stack{
     /*If stack is empty, return the default value of whichever type it is*/
     Type top() const{
         if (head_ == nullptr) {
-            std::cout << "\nWarning: Accessing top of empty stack, returning default value" << std::endl;
+            std::cout << "\nWarning: Accessing top of empty stack, returning default value: ";
             return Type{};  
         }
         return head_->data;
@@ -126,7 +126,23 @@ class Stack{
         return size_;
     }
 
-    /*Add copy and assignment operator, Size/Capacity Info, Element Access/Search*/
+    /*Add copy and assignment operator,  
+    
+    Search*/
+    bool search(const Type& value) const{
+        if(head_ != nullptr){
+            Node* current = head_;
+
+            while(current){
+                if(current->data == value){
+                    return true;
+                }
+                current = current->next;
+            }
+        }
+
+        return false;
+    }
 
 };
 
