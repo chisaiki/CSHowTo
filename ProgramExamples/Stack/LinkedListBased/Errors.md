@@ -28,3 +28,10 @@ collect2: error: ld returned 1 exit status
 
 Fix: Fill in the body
 ```
+
+
+Rule: One Destructor Per Class
+A class can have only one destructor
+The destructor must be named ~ClassName()
+It takes no parameters and returns nothing
+It's automatically called when an object goes out of scope or is deleted
